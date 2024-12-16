@@ -20,12 +20,8 @@ body {
     background-color: #1F2937;
 }
 
-button,
-.cta {
-    background-color: #3882F6;
-}
-
 button {
+    background-color: #3882F6;
     font-size: 18px;
     font-weight: bold;
     padding: 8px 32px;
@@ -44,6 +40,7 @@ button {
 
 .header .logo,
 .hero .text,
+.cta .text,
 button {
     color: #F9FAF8;
 }
@@ -167,6 +164,34 @@ button {
 
 
 /* cta */
+
+.cta {
+    /* height: 300px; */
+}
+
+.cta > .content {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 0;
+}
+
+.cta .box {
+    background-color: #3882F6;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 120px;
+    margin: 0px 40px;
+}
+
+.cta .text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta button {
+    border: 1px solid #F9FAF8;
+}
 
 
 /* footer */
