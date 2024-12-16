@@ -74,7 +74,7 @@ button {
 
 /* hero */
 
-.hero >.content {
+.hero > .content {
     display: flex;
     align-items: center;
     gap: 48px;
@@ -103,6 +103,39 @@ button {
 
 
 /* info */
+
+.info > .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info .text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 48px 0px;
+}
+
+.info .boxes {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    margin-bottom: 64px;
+}
+
+.info img {
+    height: 170px;
+    width: 170px;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+}
+
+.info .subtext {
+    width: 170px;
+    text-align: center;
+    color: #1F2937;
+}
 
 
 /* quote */
