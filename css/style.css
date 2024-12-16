@@ -195,3 +195,9 @@ button {
 
 
 /* footer */
+
+.footer > .content {
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}
